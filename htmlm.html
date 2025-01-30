@@ -170,20 +170,20 @@
     <label for="iframeCountSlider" id="labelForIframeSlider" style="margin-top: 20px;">~2000</label>
   	<div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
   		<input type="range" id="iframeCountSlider" min="100" max="15000" value="1000" step="100" style="flex-grow: 1;">
-  		<span id="iframeCountValue">3000</span>
+  		<span id="iframeCountValue">0</span>
 	</div>
-    <button onclick="warning();" id="hangButton">Hang Extension!</button>
+    <button onclick="warning();" id="hangButton">Continue!</button>
     <button id="killButton" onclick="openExtensionPopup();">Continue</button>
   </div>
 
   <div class="overlay" id="overlay">
     <div class="spinner"></div>
-    I hope you have a good day!
+    Loading...
   </div>
   <div id="killExtensionText"></div>
 
   <footer>
-    <p>3302</p>
+    <p></p>
   </footer>
 
   <script>
